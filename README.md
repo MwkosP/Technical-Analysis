@@ -47,6 +47,7 @@ The system allows you to:
 ---
 
 ### Optimization (Work in Progress 🚧)  
+- Building blocka of technical analysis like support and resistance, Fibonacci, orderbook, orderflow , trendlines, breakouts etc
 - A **Grid Search (ML optimizer)** is being developed.  
 - It will test all possible hyperparameter combinations across the indicator space.  
 - Goal: Automatically find the **most effective combination of thresholds** for generating reliable signals.  

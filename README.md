@@ -53,7 +53,7 @@ The system allows you to:
 
 ## Installation  
 
+Clone the repository and install dependencies:  
+
 ```bash
-git clone https://github.com/yourusername/technical-analysis-signal-generator.git
-cd technical-analysis-signal-generator
-pip install -r requirements.txt
+python main.py

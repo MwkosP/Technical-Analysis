@@ -1,4 +1,4 @@
-# Technical Analysis Signal Generator  
+# 📈Technical Analysis Signal Generator  
 
 ## Overview  
 This project is a **technical analysis toolkit** designed to fetch financial market data and generate robust trading signals. It retrieves OHLCV data (Open, High, Low, Close, Volume) from **Yahoo Finance (`yfinance`)** and other providers, then applies a wide range of **technical indicators**.  
@@ -59,4 +59,5 @@ Clone the repository and install dependencies:
 
 ```bash
 python main.py
+
 

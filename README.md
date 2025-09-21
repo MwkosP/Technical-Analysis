@@ -55,7 +55,7 @@ The system allows you to:
 
 ## Installation  
 
-Clone the repository and install dependencies:  
+Clone the repository and install dependencies(inside c:/Projects/  because it contains binary files):  
 
 ```bash
 python main.py

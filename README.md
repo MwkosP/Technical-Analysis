@@ -41,7 +41,8 @@ The system allows you to:
 - Each indicator generates signals when predefined **thresholds** are crossed.  
 - Signals are labeled as **good** if they satisfy set criteria (e.g., profitable outcomes, favorable momentum).  
 - The function `mixThreshold()` enables combining multiple thresholds into **robust signal sets**.  
-imgs/signals.png
+
+docs/signals.png
 ---
 
 ### Optimization (Work in Progress 🚧)  
@@ -53,7 +54,7 @@ imgs/signals.png
 
 ## Installation  
 
-Clone the repository inside c:/Projects/ 
+Clone the repository and install dependencies:  
 
 ```bash
 python main.py

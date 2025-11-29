@@ -105,21 +105,22 @@ def main():
 
     # Show links
     print("\n🚀 FastAPI server starting...")
-    print("📑 Swagger docs:   http://127.0.0.1:8000/docs")
+    print("📑 Swagger docs:   http://something.smth.smth:smth/docs")
 
     
     # Kill any leftover uvicorn
     kill_uvicorn_on_port(8000)
 
     # ✅ Launch Swagger in browser BEFORE  uvicorn
-    open_swagger("http://127.0.0.1:8000/docs")
+    open_swagger("http://something.smth.smth:smth/docs")
 
     # Start cloudflared in background with delay
     #threading.Thread(target=start_cloudflared, daemon=True).start()
 
     # Run the GLOBAL app
-    uvicorn.run("app:app", host="127.0.0.1", port=8000)
+    uvicorn.run("app:app", host="something.smth.smth:smth/docs", port=smth)
 
 
 if __name__ == "__main__":
     main()
+

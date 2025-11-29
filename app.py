@@ -19,9 +19,8 @@ from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI(title="Quant Backend", docs_url="/docs", redoc_url="/redoc")
 
-origins = [
-    "http://localhost:5173/",   # React dev server (Vite)
-    "http://127.0.0.1:5173/",
+origins = [""
+yo stuff here
     ""  # για δοκιμές επιτρέπει τα πάντα (βγάλτο σε production)
 ]
 
@@ -57,3 +56,4 @@ app.include_router(ta_utils.router, prefix="/ta")
 
 # FA Routers (when ready)
 # app.include_router(fa_data.router, prefix="/fa")
+

@@ -1,22 +1,24 @@
-# 📈 Technical Analysis Signal Generator & Search Framework
+# Technical Analysis Signal Generator & Search Framework
 
 ## Overview
 This project is a full-featured **technical analysis signal engine** that:
 
-- Loads OHLCV data from **Yahoo Finance (`yfinance`)** or any provider  
-- Computes dozens of technical indicators  
+- Loads price and more data from **Yahoo Finance (`yfinance`)** and other providers  
+- Computes technical indicators  
 - Defines **threshold-based triggers** (crossovers, ranges, time-based conditions, etc.)  
-- Runs **search algorithms** (Grid, Random, Bayesian*) to explore multi-dimensional indicator spaces  
-- Combines the resulting signal sets using a powerful **mixThresholds()** engine  
-- Generates **PDF charts** for each configuration (for debugging, research, and optimization)
+- Runs **search algorithms** (Grid, Random, Bayesian*) to explore multi-dimensional indicator spaces and relationships  
+- Combines the resulting signal sets using a powerful **mixThresholds()** func
+- Filters Data based on  Historiy & Statistics.    
+- Optionally Generates **PDF charts** for each configuration (for debugging, research, and optimization)
+- Implements Models on the Statistically best Datasets from earlier and trains models.(in the Future)
 
 The system is built for **quantitative research**, **signal generation**, and **strategy prototyping**.
 
 ---
 
-## ✨ Key Features
 
-### 🔧 Technical Indicators
+
+### Technical Indicators
 - **Momentum / Oscillators**  
   - RSI  
   - StochRSI  
@@ -39,7 +41,7 @@ The system is built for **quantitative research**, **signal generation**, and **
 
 ---
 
-## ⚡ Threshold-Based Signal Engine
+## Threshold-Based Signal Engine
 Each indicator generates signals using multiple threshold types:
 
 - **crossUpThreshold** – indicator crosses a fixed numeric level  
@@ -60,18 +62,12 @@ The system supports **multi-dimensional search spaces**, e.g.:
     }
 }
 
-mixThresholds(df, configs, search="grid")
+mixThresholds()
 will:
+Expand all combinations of parameters, Run threshold detection for each sub-config, Collect all signals inside , UNION them ,AND/OR combine them across blocks, This creates extremely powerful multi-indicator composite signals.
 
-Expand all combinations of parameters
 
-Run threshold detection for each sub-config
+## Fututre: 
+Find Best Historical Data-Signals and train models on them
 
-Collect all signals inside that block
-
-UNION them (Option B behavior)
-
-AND/OR combine them across blocks
-
-This creates extremely powerful multi-indicator composite signals.
 

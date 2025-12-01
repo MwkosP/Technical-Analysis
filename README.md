@@ -15,8 +15,9 @@ This project is a full-featured **technical analysis signal engine** that:
 The system is built for **quantitative research**, **signal generation**, and **strategy prototyping**.
 
 ---
-https://github.com/MwkosP/Technical-Analysis/blob/main/image.png
-![Signals](./imgs/image.png)
+![Preview](https://raw.githubusercontent.com/MwkosP/Technical-Analysis/main/image.png)
+![Preview](https://raw.githubusercontent.com/MwkosP/Technical-Analysis/main/signals.png)
+
 
 
 
@@ -61,6 +62,7 @@ Expand all combinations of parameters, Run threshold detection for each sub-conf
 
 ## Fututre: 
 Find Best Historical Data-Signals and train models on them
+
 
 
 

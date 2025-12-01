@@ -20,24 +20,13 @@ The system is built for **quantitative research**, **signal generation**, and **
 
 ### Technical Indicators
 - **Momentum / Oscillators**  
-  - RSI  
-  - StochRSI  
-  - ROC  
-  - Williams %R  
-  - ADX  
-  - MACD  
+  - RSI,StochRSI,ROC,Williams %R,ADX ,MACD  
 
 - **Trend Indicators**  
-  - MA (Simple Moving Average)  
-  - EMA (Exponential Moving Average)  
-  - EMA Ribbon  
-  - EMA Crossover  
-  - Ichimoku Cloud  
+  - MA ,EMA,EMA Ribbon,EMA Crossover,Ichimoku Cloud  
 
 - **Volatility / Range Indicators**  
-  - Bollinger Bands  
-  - ATR  
-  - Donchian Channels  
+  - Bollinger Bands,ATR,Donchian Channels  
 
 ---
 
@@ -69,5 +58,6 @@ Expand all combinations of parameters, Run threshold detection for each sub-conf
 
 ## Fututre: 
 Find Best Historical Data-Signals and train models on them
+
 
 

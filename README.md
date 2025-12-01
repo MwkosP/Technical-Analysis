@@ -47,5 +47,31 @@ Each indicator generates signals using multiple threshold types:
 - **inRangeThreshold** – indicator enters predefined numerical band  
 - **timeThreshold** – indicator stays above/below a level for N candles  
 
-All threshold functions output:
+## 🔍 Search Algorithms (Grid / Random / Bayesian)
+The system supports **multi-dimensional search spaces**, e.g.:
+
+{
+    "type": "crossUpThreshold",
+    "indicator": "rsi",
+    "period": [7, 14, 21],
+    "threshold": [30],
+    "indicator_params": {
+        "indicator_period": [7, 14, 21]
+    }
+}
+
+mixThresholds(df, configs, search="grid")
+will:
+
+Expand all combinations of parameters
+
+Run threshold detection for each sub-config
+
+Collect all signals inside that block
+
+UNION them (Option B behavior)
+
+AND/OR combine them across blocks
+
+This creates extremely powerful multi-indicator composite signals.
 

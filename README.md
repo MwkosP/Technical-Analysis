@@ -16,7 +16,8 @@ The system is built for **quantitative research**, **signal generation**, and **
 
 ---
 
-![Strategy Signals Example](https://github.com/MwkosP/Technical-Analysis/blob/main/imgs)
+![Signals Example](./imgs/signals.png)
+
 
 
 ### Technical Indicators
@@ -59,6 +60,7 @@ Expand all combinations of parameters, Run threshold detection for each sub-conf
 
 ## Fututre: 
 Find Best Historical Data-Signals and train models on them
+
 
 
 

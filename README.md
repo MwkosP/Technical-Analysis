@@ -22,7 +22,7 @@ The system is built for **quantitative research**, **signal generation**, and **
 (Backend)
 - Python(Numpy,Pandas,Matplotlib,Plotly,fastapi,finta,etc...)
 - SQLite
-\n
+--
 (Frontend)
 -ReactRouter,Tailwind,Typescript,3D JS 
 
@@ -68,6 +68,7 @@ Expand all combinations of parameters, Run threshold detection for each sub-conf
 
 ## Fututre: 
 Find Best Historical Data-Signals and train models on them
+
 
 
 

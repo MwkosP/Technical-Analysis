@@ -15,8 +15,9 @@ This project is a full-featured **technical analysis signal engine** that:
 The system is built for **quantitative research**, **signal generation**, and **strategy prototyping**.
 
 ---
-![Preview](https://raw.githubusercontent.com/MwkosP/Technical-Analysis/main/image.png)
 ![Preview](https://raw.githubusercontent.com/MwkosP/Technical-Analysis/main/signals.png)
+
+
 
 
 
@@ -33,7 +34,7 @@ The system is built for **quantitative research**, **signal generation**, and **
   - Bollinger Bands,ATR,Donchian Channels  
 
 ---
-
+![Preview](https://raw.githubusercontent.com/MwkosP/Technical-Analysis/main/image.png)
 ## Threshold-Based Signal Engine
 Each indicator generates signals using multiple threshold types:
 
@@ -62,6 +63,7 @@ Expand all combinations of parameters, Run threshold detection for each sub-conf
 
 ## Fututre: 
 Find Best Historical Data-Signals and train models on them
+
 
 
 

@@ -60,7 +60,7 @@ The system supports **multi-dimensional search spaces**, e.g.:
         "indicator_period": [7, 14, 21]
     }
 }
-![Preview](https://raw.githubusercontent.com/MwkosP/Technical-Analysis/main/piic.webp)
+![Preview](https://raw.githubusercontent.com/MwkosP/Technical-Analysis/main/search.webp)
 mixThresholds()
 will:
 Expand all combinations of parameters, Run threshold detection for each sub-config, Collect all signals inside , UNION them ,AND/OR combine them across blocks, This creates extremely powerful multi-indicator composite signals.
@@ -68,6 +68,7 @@ Expand all combinations of parameters, Run threshold detection for each sub-conf
 
 ## Fututre: 
 Find Best Historical Data-Signals and train models on them
+
 
 
 

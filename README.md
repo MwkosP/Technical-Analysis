@@ -1,64 +1,51 @@
-# 📈Technical Analysis Signal Generator  
+# 📈 Technical Analysis Signal Generator & Search Framework
 
-## Overview  
-This project is a **technical analysis toolkit** designed to fetch financial market data and generate robust trading signals. It retrieves OHLCV data (Open, High, Low, Close, Volume) from **Yahoo Finance (`yfinance`)** and other providers, then applies a wide range of **technical indicators**.  
+## Overview
+This project is a full-featured **technical analysis signal engine** that:
 
-The system allows you to:  
-- Compute multiple indicators.  
-- Define **thresholds** for signals.  
-- Label signals as "good" or not based on performance.  
-- Combine thresholds using a flexible `mixThreshold()` method.  
-- (In progress) Run **Grid Search optimization** across hyperparameters to discover the most effective indicator combinations.  
+- Loads OHLCV data from **Yahoo Finance (`yfinance`)** or any provider  
+- Computes dozens of technical indicators  
+- Defines **threshold-based triggers** (crossovers, ranges, time-based conditions, etc.)  
+- Runs **search algorithms** (Grid, Random, Bayesian*) to explore multi-dimensional indicator spaces  
+- Combines the resulting signal sets using a powerful **mixThresholds()** engine  
+- Generates **PDF charts** for each configuration (for debugging, research, and optimization)
+
+The system is built for **quantitative research**, **signal generation**, and **strategy prototyping**.
 
 ---
 
-## Features  
+## ✨ Key Features
 
-### Indicators Implemented  
-- **Momentum / Oscillators**:  
-  - RSI (Relative Strength Index)  
-  - Stochastic RSI  
-  - ROC (Rate of Change)  
+### 🔧 Technical Indicators
+- **Momentum / Oscillators**  
+  - RSI  
+  - StochRSI  
+  - ROC  
   - Williams %R  
-  - ADX (Average Directional Index)  
-  - MACD (Moving Average Convergence Divergence)  
+  - ADX  
+  - MACD  
 
-- **Trend Indicators**:  
+- **Trend Indicators**  
   - MA (Simple Moving Average)  
   - EMA (Exponential Moving Average)  
   - EMA Ribbon  
   - EMA Crossover  
   - Ichimoku Cloud  
 
-- **Volatility / Range Indicators**:  
+- **Volatility / Range Indicators**  
   - Bollinger Bands  
-  - ATR (Average True Range)  
+  - ATR  
   - Donchian Channels  
 
 ---
 
-### Signal Processing  
-- Each indicator generates signals when predefined **thresholds** are crossed.  
-- Signals are labeled as **good** if they satisfy set criteria (e.g., profitable outcomes, favorable momentum).  
-- The function `mixThreshold()` enables combining multiple thresholds into **robust signal sets**.  
+## ⚡ Threshold-Based Signal Engine
+Each indicator generates signals using multiple threshold types:
 
-![Signals Example](signals.png)
+- **crossUpThreshold** – indicator crosses a fixed numeric level  
+- **crossUpLineThreshold** – fast-vs-slow line crossover  
+- **inRangeThreshold** – indicator enters predefined numerical band  
+- **timeThreshold** – indicator stays above/below a level for N candles  
 
----
-
-### Optimization (Work in Progress 🚧)  
-- Building blocka of technical analysis like support and resistance, Fibonacci, orderbook, orderflow , trendlines, breakouts etc
-- A **Grid Search (ML optimizer)** is being developed.  
-- It will test all possible hyperparameter combinations across the indicator space.  
-- Goal: Automatically find the **most effective combination of thresholds** for generating reliable signals.  
-
----
-
-## Installation  
-
-Clone the repository and install dependencies(inside c:/Projects/  because it contains binary files):  
-
-```bash
-python main.py
-
+All threshold functions output:
 

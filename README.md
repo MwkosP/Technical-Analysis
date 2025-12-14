@@ -6,7 +6,7 @@
 
 ## AutoTA: Technical Analysis Signal Generator & Hyperparameter Optimization Framework
 
-<br clear="right"/>
+<br />
 
 
 
@@ -80,6 +80,7 @@ Expand all combinations of parameters, Run threshold detection for each sub-conf
 
 ## Fututre: 
 Find Best Historical Data-Signals and train models on them
+
 
 
 

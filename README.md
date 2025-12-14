@@ -7,7 +7,12 @@
 ## AutoTA: Technical Analysis Signal Generator & Hyperparameter Optimization Framework
 
 <br />
-[![python](https://img.shields.io/badge/python-3.9-blue)](https://www.python.org/)
+[![Website](https://img.shields.io/badge/Website-Online-blue?logo=google-chrome)](https://example.com)
+[![Docs](https://img.shields.io/badge/Docs-Available-blue?logo=readthedocs)](https://example.com/docs)
+[![Install](https://img.shields.io/badge/Install-Guide-blue?logo=pypi)](https://example.com/install)
+[![Tutorial](https://img.shields.io/badge/Tutorial-Start-blue?logo=youtube)](https://example.com/tutorial)
+[![Examples](https://img.shields.io/badge/Examples-Code-blue?logo=github)](examples/)
+
 
 <br />
 ---
@@ -84,6 +89,7 @@ Expand all combinations of parameters, Run threshold detection for each sub-conf
 
 ## Fututre: 
 Find Best Historical Data-Signals and train models on them
+
 
 
 

@@ -6,7 +6,7 @@
 | **Status** | Stable/Alpha |
 | **Purpose** | Quantitative Research, Signal Generation, Strategy Prototyping |
 | **Tech Stack** | Python (Pandas, NumPy, FastAPI), SQLite, React/TypeScript |
-![Preview](https://raw.githubusercontent.com/MwkosP/Technical-Analysis/main/AutoTaIcon.png)
+![Preview](https://raw.githubusercontent.com/MwkosP/Technical-Analysis/main/AutoTAIcon.png)
 
 
 # Technical Analysis Signal Generator & Search Framework
@@ -79,6 +79,7 @@ Expand all combinations of parameters, Run threshold detection for each sub-conf
 
 ## Fututre: 
 Find Best Historical Data-Signals and train models on them
+
 
 
 

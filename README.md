@@ -1,9 +1,19 @@
-<img src="https://raw.githubusercontent.com/MwkosP/Technical-Analysis/main/AutoTAIcon.png"
-     alt="AutoTA Logo"
-     width="200"
-     align="right"
-     style="margin-left:16px;" />
-<br />
+<table>
+  <tr>
+    <td width="20%" align="center">
+      <img src="https://raw.githubusercontent.com/MwkosP/Technical-Analysis/main/AutoTAIcon.png"
+           alt="AutoTA Icon"
+           width="120" />
+    </td>
+    <td width="80%" align="center">
+      <img src="PASTE_YOUR_BANNER_IMAGE_URL_HERE"
+           alt="AutoTA Banner"
+           width="100%" />
+    </td>
+  </tr>
+</table>
+
+
 ## AutoTA: Technical Analysis Signal Generator & Hyperparameter Optimization Framework
 
 <br />
@@ -80,6 +90,7 @@ Expand all combinations of parameters, Run threshold detection for each sub-conf
 
 ## Fututre: 
 Find Best Historical Data-Signals and train models on them
+
 
 
 

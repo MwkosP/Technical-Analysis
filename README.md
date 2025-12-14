@@ -36,7 +36,7 @@ The system is built for **quantitative research**, **signal generation**, and **
 
 ## Tech Stack:
 (Backend)
-- Python(Numpy,Pandas,Matplotlib,Plotly,fastapi,finta,etc...)
+- Python(Numpy,Pandas,Matplotlib,Plotly,fastapi,finta,scikit-learn,tensorflow,pytorch,optuna,etc...)
 - SQLite
 <br>
 (Frontend)<br>
@@ -84,6 +84,7 @@ Expand all combinations of parameters, Run threshold detection for each sub-conf
 
 ## Fututre: 
 Find Best Historical Data-Signals and train models on them
+
 
 
 

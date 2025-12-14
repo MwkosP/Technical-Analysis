@@ -6,7 +6,7 @@
 | **Status** | Stable/Alpha |
 | **Purpose** | Quantitative Research, Signal Generation, Strategy Prototyping |
 | **Tech Stack** | Python (Pandas, NumPy, FastAPI), SQLite, React/TypeScript |
-![Preview](AutoTA Icon.png)
+![Preview](https://raw.githubusercontent.com/MwkosP/Technical-Analysis/main/AutoTaIcon.png)
 
 
 # Technical Analysis Signal Generator & Search Framework
